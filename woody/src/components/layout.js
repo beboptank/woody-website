@@ -35,7 +35,6 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <Hero text="Yohei is lame." />
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
