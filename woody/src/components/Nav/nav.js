@@ -11,7 +11,7 @@ const Nav = ({ siteTitle }) => (
     <nav className="navcontainer__navbar">
       <h1 className="navcontainer__navbar__title">
         <Link
-          to="../../pages/index.js"
+          to="pages/index.js"
           style={{
             color: `white`,
             textDecoration: `none`
@@ -21,7 +21,7 @@ const Nav = ({ siteTitle }) => (
         </Link>
       </h1>
       <ul className="navcontainer__items">
-        <li className="navcontainer__items__link">Menu</li>
+        <li className="navcontainer__items__link"><Link to="pages/menu/">Menu</Link></li>
         <li className="navcontainer__items__link">Events</li>
         <li className="navcontainer__items__link">Gallery</li>
         <li className="navcontainer__items__link">Contact</li>
