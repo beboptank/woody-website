@@ -5,12 +5,13 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import React from "react";
+import PropTypes from "prop-types";
+import { useStaticQuery, graphql } from "gatsby";
 
-import Nav from "./Nav/nav"
-import "./layout.scss"
+import Nav from "./Nav/nav";
+import Hero from "./Hero/hero";
+import "./layout.scss";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
