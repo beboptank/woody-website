@@ -11,7 +11,7 @@ const Nav = ({ siteTitle }) => (
     <nav className="navcontainer__navbar">
       <h1 className="navcontainer__navbar__title">
         <Link
-          to="pages/index.js"
+          to="/"
           style={{
             color: `white`,
             textDecoration: `none`
@@ -21,10 +21,22 @@ const Nav = ({ siteTitle }) => (
         </Link>
       </h1>
       <ul className="navcontainer__items">
-        <li className="navcontainer__items__link"><Link to="pages/menu/">Menu</Link></li>
-        <li className="navcontainer__items__link">Events</li>
-        <li className="navcontainer__items__link">Gallery</li>
-        <li className="navcontainer__items__link">Contact</li>
+        <li className="navcontainer__items__link"><Link to="/menu/" style={{
+          color: `white`,
+          textDecoration: `none`
+        }}>Menu</Link></li>
+        <li className="navcontainer__items__link"><Link to="/events/" style={{
+          color: `white`,
+          textDecoration: `none`
+        }}>Events</Link></li>
+        <li className="navcontainer__items__link"><Link to="/gallery/" style={{
+          color: `white`,
+          textDecoration: `none`
+        }}>Gallery</Link></li>
+        <li className="navcontainer__items__link"><Link to="/contact/" style={{
+          color: `white`,
+          textDecoration: `none`
+        }}>Contact</Link></li>
       </ul>
     </nav>
 
