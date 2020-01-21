@@ -6,7 +6,7 @@ import "./instahero.scss";
 
 export default function InstaHero({ text }) {
     return (
-        <div className="herocontainer">
+        <div className="instahero-container">
             <div className="herocontainer__info">
                 <h1>{text}</h1>
             </div>

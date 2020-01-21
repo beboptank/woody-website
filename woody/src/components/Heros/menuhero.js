@@ -6,7 +6,7 @@ import "./menuhero.scss";
 
 export default function MenuHero({ text }) {
     return (
-        <div className="herocontainer">
+        <div className="menuhero-container">
             <div className="herocontainer__info">
                 <h1>{text}</h1>
             </div>

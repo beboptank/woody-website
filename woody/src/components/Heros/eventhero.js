@@ -6,7 +6,7 @@ import "./eventhero.scss";
 
 export default function EventHero({ text }) {
     return (
-        <div className="herocontainer">
+        <div className="eventhero-container">
             <div className="herocontainer__info">
                 <h1>{text}</h1>
             </div>
