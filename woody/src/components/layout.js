@@ -9,7 +9,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
-import Nav from "./Nav/nav";
 import "./layout.scss";
 
 const Layout = ({ children }) => {
@@ -25,7 +24,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Nav siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
           margin: `0 auto`,
