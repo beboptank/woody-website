@@ -1,3 +1,9 @@
 .eventhero-container {
     background-image: url("../../images/party.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    &__info {
+        color: white;
+    }
 }
