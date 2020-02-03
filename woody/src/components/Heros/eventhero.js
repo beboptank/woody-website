@@ -2,25 +2,23 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import "../layout.scss";
-import "./hero.scss";
+import "./eventhero.scss";
 
-export default function Hero({text, src}) {
+export default function EventHero({ text }) {
     return (
-        <div className="herocontainer" src={src}>
-            <div className="herocontainer__info">
+        <div className="eventhero-container">
+            <div className="eventhero-container__info">
                 <h1>{text}</h1>
             </div>
         </div>
     );
 }
 
-Hero.propTypes = {
+EventHero.propTypes = {
     text: PropTypes.string,
 }
 
-Hero.defaultProps = {
+EventHero.defaultProps = {
     // String
     text: "Woody, bro.",
-    // String - use to set background image
-    src: "",
 }
