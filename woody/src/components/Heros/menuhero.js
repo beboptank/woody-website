@@ -7,7 +7,7 @@ import "./menuhero.scss";
 export default function MenuHero({ text }) {
     return (
         <div className="menuhero-container">
-            <div className="herocontainer__info">
+            <div className="menuhero-container__info">
                 <h1>{text}</h1>
             </div>
         </div>
