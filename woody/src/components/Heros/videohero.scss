@@ -1,0 +1,30 @@
+.herocontainer {
+    display: flex;
+    flex-flow: row wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    &__info {
+        color: white;
+        font-size: 1.9rem;
+        position: absolute;
+	    top: 0;
+        left: 0;
+        margin-top: 8rem;
+    }
+}
+
+#videoBackground {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    margin: 0 auto;
+    object-fit: fill;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+  #videoBackground {
+      height: 60vh;
+  }
+}
