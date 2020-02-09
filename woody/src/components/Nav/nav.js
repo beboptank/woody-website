@@ -1,6 +1,7 @@
 import { Link, withAssetPrefix } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
+import HamburgerMenu from '../../../node_modules/react-hamburger-menu';
 import "../layout.scss";
 import "./nav.scss";
 
