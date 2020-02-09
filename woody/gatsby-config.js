@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Woody`,
+    title: `woody`,
     description: `The official site of Woody, the best bar in Fukui, Japan.`,
     author: `Seth Christmus`,
   },
