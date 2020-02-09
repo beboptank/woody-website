@@ -1,7 +1,6 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
-import HamburgerMenu from '../../../node_modules/react-hamburger-menu';
 import "../layout.scss";
 import "./nav.scss";
 
@@ -15,7 +14,8 @@ const Nav = ({ siteTitle }) => (
           to="/"
           style={{
             color: `white`,
-            textDecoration: `none`
+            textDecoration: `none`,
+            textTransform: `lowercase`
           }}
         >
           {siteTitle}

@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -17,7 +16,6 @@ const IndexPage = () => (
     <MenuHero text="Refreshing cocktails and beer. Homemade curry." />
     <EventHero text="It's always time for party time." />
     <InstaHero text="Looking good, everybody." />
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 

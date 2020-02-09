@@ -3,14 +3,20 @@
 $font-header: 'Crete Round', serif;
 $font-content: 'Raleway', sans-serif; 
 
+* {
+  overflow-x: hidden;
+}
+
 body {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 auto;
+  padding: 0;
 }
 
 h1 {
   font-family: $font-header;
+  text-shadow: 6px 6px 0px rgba(0,0,0,0.5);
 }
 
 p {
@@ -19,4 +25,10 @@ p {
 
 li {
   font-family: $font-header;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
 }
