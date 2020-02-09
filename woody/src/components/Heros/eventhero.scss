@@ -1,9 +1,15 @@
 .eventhero-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
     background-image: url("../../images/party.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     &__info {
         color: white;
+        font-size: 1.9rem;
+        width: 50%;
+        margin-left: 1rem;
     }
 }

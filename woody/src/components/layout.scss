@@ -3,6 +3,12 @@
 $font-header: 'Crete Round', serif;
 $font-content: 'Raleway', sans-serif; 
 
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: $font-header;
 }
