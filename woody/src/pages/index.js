@@ -12,10 +12,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Nav />
-    <VideoHero text="This is the video hero." />
+    <VideoHero text="Welcome to woody." />
     <MenuHero text="Refreshing cocktails and beer. Homemade curry." />
-    <EventHero text="It's always time for party time." />
-    <InstaHero text="Looking good, everybody." />
+    <EventHero text="Come on in - it's always party time at woody." />
+    <InstaHero text="Say cheese and cheers to good friends and drinks." />
   </Layout>
 )
 
