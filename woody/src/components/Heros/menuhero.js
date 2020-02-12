@@ -10,7 +10,7 @@ export default function MenuHero({ text }) {
         <div className="menuhero-container">
             <div className="menuhero-container__info">
                 <h1>{text}</h1>
-                <Button text={"The Menu"}/>
+                <Button href={"/menu/"} text={"The Menu"}/>
             </div>
         </div>
     );

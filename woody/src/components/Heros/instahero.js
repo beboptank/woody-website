@@ -9,7 +9,7 @@ export default function InstaHero({ text }) {
         <div className="instahero-container">
             <div className="instahero-container__info">
                 <h1>{text}</h1>
-                <Button text={"Photos and Videos from Instagram"} />
+                <Button href={"/gallery/"} text={"Instagram Gallery"} />
             </div>
         </div>
     );
