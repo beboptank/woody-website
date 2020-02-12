@@ -9,7 +9,7 @@ export default function EventHero({ text }) {
         <div className="eventhero-container">
             <div className="eventhero-container__info">
                 <h1>{text}</h1>
-                <Button text={"Upcoming Events"} />
+                <Button href={"/events/"} text={"Upcoming Events"} />
             </div>
         </div>
     );
