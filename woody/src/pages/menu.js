@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-
+import MenuCard from "../components/MenuCard/MenuCard";
 
 
 const Menu = () => (
@@ -11,6 +11,10 @@ const Menu = () => (
         <SEO title="Menu" />
         <h1>Menu</h1>
         <p>Welcome to the menu page</p>
+
+        <div>
+            <MenuCard />
+        </div>
         
         <Link to="/">Go back to the homepage</Link>
     </Layout>
