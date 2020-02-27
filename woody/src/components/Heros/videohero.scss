@@ -1,8 +1,6 @@
 .herocontainer {
     display: flex;
     flex-flow: row wrap;
-    background-size: cover;
-    background-repeat: no-repeat;
     margin: 0 auto;
     &__info {
         color: white;
@@ -25,6 +23,6 @@
 
 @media only screen and (max-width: 600px) {
   #videoBackground {
-      height: 60vh;
+      height: 85vh;
   }
 }

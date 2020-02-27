@@ -1,5 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+
+$blackboard-font: "Caveat", ;
+
 .menucardcontainer {
-    text-align: center;
-    background-color: gray;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(8, 0, 52, 0.9);
     color: white;
+
+    &__type {
+        padding-right: 1rem;
+        font-size: 1.5rem;
+        font-family: $blackboard-font;
+    }
+
+    &__listcontainer {
+        padding: 1rem;
+        &__itemlist {
+            text-align: left;
+
+            &__item {
+                font-family: $blackboard-font;
+            }
+        }
+
+    }
 }
