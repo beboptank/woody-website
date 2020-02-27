@@ -13,7 +13,11 @@ const Menu = () => (
         <p>Welcome to the menu page</p>
 
         <div>
-            <MenuCard />
+            <MenuCard 
+                type="Beer"
+                price="¥700"
+                itemlist={["Budweiser ", "Corona"]}
+            />
         </div>
         
         <Link to="/">Go back to the homepage</Link>
