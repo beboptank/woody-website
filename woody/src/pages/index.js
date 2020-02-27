@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Nav />
-    <VideoHero text="Welcome to woody." />
+    <VideoHero />
     <MenuHero text="Refreshing cocktails and beer. Homemade curry." />
     <EventHero text="Come on in - it's always party time at woody." />
     <InstaHero text="Say cheese and cheers to good friends and drinks." />

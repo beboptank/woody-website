@@ -2,11 +2,17 @@ import React from "react";
 
 import "./MenuCard.scss";
 
-const MenuCard = ({ type, price, image, itemlist }) => (
+const MenuCard = ({ type, image, itemlist }) => (
+
+
+
     <div className="menucardcontainer">
-        <h2>{type}</h2>
-        <h3>{price}</h3>
-        <p>{itemlist}</p>
+        <h2 className="menucardcontainer__type">{type.toUpperCase(type)}</h2>
+        <div className="menucardcontainer__listcontainer">
+            <ul className="menucardcontainer__listcontainer__itemlist">
+                {itemlist.map(item => <li className="menucardcontainer__listcontainer__itemlist__item">{item}</li>)}
+            </ul>
+        </div>
     </div>
 )
 
@@ -14,6 +20,6 @@ export default MenuCard;
 
 MenuCard.defaultProps = {
     type: 'beer',
-    price: '700 yen',
+    subtype: '',
     itemlist: ['Bud', 'Corona', 'Heartland']
 }
