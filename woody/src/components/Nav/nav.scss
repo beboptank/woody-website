@@ -5,7 +5,7 @@ $link-color: white;
 
     &__navbar {
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         margin: 0 auto;
@@ -27,4 +27,12 @@ $link-color: white;
             font-size: 1.2rem;
         }
     }
+}
+
+@media only screen and (max-width: 600px) {
+  .navcontainer {
+      &__items {
+          display: none;
+      }
+  }
 }

@@ -1,5 +1,4 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -13,11 +12,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Nav />
-    <VideoHero text="This is the video hero." />
+    <VideoHero />
     <MenuHero text="Refreshing cocktails and beer. Homemade curry." />
-    <EventHero text="It's always time for party time." />
-    <InstaHero text="Looking good, everybody." />
-    <Link to="/page-2/">Go to page 2</Link>
+    <EventHero text="Come on in - it's always party time at woody." />
+    <InstaHero text="Say cheese and cheers to good friends and drinks." />
   </Layout>
 )
 
