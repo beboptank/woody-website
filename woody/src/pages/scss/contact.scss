@@ -1,14 +1,49 @@
 .contactcontainer {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     font-size: 8rem;
+    overflow-y: hidden;
+
+    &__facebook {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(8, 0, 15, 0.9);
+        margin: 1rem;
+        transition: all .2s ease-in-out;
+
+        &__text {
+            font-size: 2rem;
+            color: white;
+        }
+    }
+
+    &__instagram {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(8, 0, 15, 0.9);
+        margin: 1rem;
+        transition: all .2s ease-in-out;
+        
+        &__text {
+            font-size: 2rem;
+            color: white;
+        }
+    }
 
     &__phone {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: rgba(8, 0, 15, 0.9);;
+        background-color: rgba(8, 0, 15, 0.9);
+        margin: 1rem;
+        transition: all .2s ease-in-out;
+        
         &__number {
             font-size: 2rem;
             color: white;
@@ -16,9 +51,11 @@
     }
 
     &__icon {
-        padding: 4rem;
-        margin: 1rem;
+        padding: 5rem;
         color: white;
-        box-shadow: 5px 10px 10px black;
+    }
+
+    &__facebook:hover, &__instagram:hover, &__phone:hover {
+        transform: scale(1.1);
     }
 }
