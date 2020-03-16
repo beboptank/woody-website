@@ -19,8 +19,14 @@ const Contact = () => (
         <h1>Contact</h1>
 
         <div className="contactcontainer">
-            <a href="https://www.facebook.com/woodyfukui"><FontAwesomeIcon icon={faFacebookSquare} className="contactcontainer__icon" /></a>
-            <a href="https://www.instagram.com/woody_diary/"><FontAwesomeIcon icon={faInstagramSquare} className="contactcontainer__icon" /></a>
+            <div className="contactcontainer__facebook">
+                <a href="https://www.facebook.com/woodyfukui"><FontAwesomeIcon icon={faFacebookSquare} className="contactcontainer__icon" /></a>
+                <p className="contactcontainer__facebook__text">Facebook</p>
+            </div>
+            <div className="contactcontainer__instagram">
+                <a href="https://www.instagram.com/woody_diary/"><FontAwesomeIcon icon={faInstagramSquare} className="contactcontainer__icon" /></a>
+                <p className="contactcontainer__instagram__text">Instagram</p>
+            </div>
             <div className="contactcontainer__phone">
                 <a><FontAwesomeIcon className="contactcontainer__icon" icon={faPhoneSquare} /></a>
                 <p className="contactcontainer__phone__number">090-6608-8099</p>
