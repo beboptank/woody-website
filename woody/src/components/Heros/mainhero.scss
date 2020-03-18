@@ -1,0 +1,18 @@
+.hero-container {
+    background-image: url("../../images/woodyMainHero.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    &__info {
+        h1 {
+            display: none;
+        };
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-container {
+      width: 100vw;
+      height: 90vh;
+  }
+}

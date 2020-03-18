@@ -8,9 +8,11 @@ $link-color: white;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        margin: 0 auto;
         padding: 1.45rem 1.0875rem;
         background-color: #36454f;
+        position: fixed;
+        width: 100%;
+        top: 0;
 
         &__title {
             margin: 0;
@@ -20,6 +22,7 @@ $link-color: white;
 
     &__items {
         display: flex;
+        padding-right: 1rem;
         list-style: none;
 
         &__link {

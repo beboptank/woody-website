@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 const Gallery = () => (
+
     <Layout>
         <SEO title="Gallery" />
         <h1>Hi from the Gallery</h1>
