@@ -14,7 +14,7 @@ const Menu = () => (
         <Nav />
         <SEO title="woody Menu" />
         <div className="menucontainer">
-            <h1>Menu</h1>
+            <h1 className="menucontainer__header">Menu</h1>
 
             <div>
                 <MenuCard 
