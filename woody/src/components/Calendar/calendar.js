@@ -1,27 +1,17 @@
-import React, {Component} from 'react';
-import {Link} from 'gatsby';
+import React, { Component } from 'react';
+import { Link } from 'gatsby';
+
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 
-let googleCalendarUrl = calId =>
-    `https://www.googleapis.com/calendar/v3/calendars/${calId}/events`
-    + `?singleEvents=true&key=${API_KEY}`;
-const API_KEY = '';
+export default class Calendar extends React.Component {
 
-class Calendar extends Component {
-    constructor() {
-        super();
-        this.state = {
-            events: []
-        };
-    }
+    
 
-    componentDidMount() {
-        fetch('https://www.googleapis.com/auth/calendar.events.readonly')
-        .then(response => {
-            return response.json();
-        })
-        .then(events => {
-            console.log(events);
-        });
+    render() {
+        return (
+            <script src="https://apis.google.com/js/api.js"></script>
+        )
     }
 }
